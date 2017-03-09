@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "287134306863",
+    "firebase_url": "https://bottled-ecf7c.firebaseio.com",
+    "project_id": "bottled-ecf7c",
+    "storage_bucket": "bottled-ecf7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287134306863:android:6b8076941c209c90",
+        "android_client_info": {
+          "package_name": "com.fujdevelopers.bottled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287134306863-tkdkj3m9ob5tcki80mof8f2ti7beau7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fujdevelopers.bottled",
+            "certificate_hash": "1862a0a63ed2c15d282b4b2951a2e0b21e88dc33"
+          }
+        },
+        {
+          "client_id": "287134306863-eo4c2cjhcuj8rqq14cpp5nlgnhcsn8v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTevZ7QcQwaRMOTpRQ53zHeEiuAHbVmug"
+        },
+        {
+          "current_key": "AIzaSyC0HHEgAGvXwQwyRQMfMM0H7c8uHl9Xlyw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287134306863-eo4c2cjhcuj8rqq14cpp5nlgnhcsn8v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

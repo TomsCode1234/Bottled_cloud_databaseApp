@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fujdevelopers.bottled">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <service android:name=".MyFirebaseMessagingService">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+    </service>
+    <service android:name=".MyFirebaseInstanceIDService">
+        <intent-filter>
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+        </intent-filter>
+    </service>
+    <service android:name=".MyFirebaseInstanceIDService">
+        <intent-filter>
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+        </intent-filter>
+    </service>
+    <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+    -->
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@drawable/ic_stat_ic_notification" />
+    <!--
+         Set color used with incoming notification messages. This is used when no color is set for the incoming
+         notification message. See README(https://goo.gl/6BKBk7) for more.
+    -->
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_color"
+        android:resource="@color/colorAccent" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Sign up"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Log In"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:label="'Message in a Bottle' simulator" />
+        <activity
+            android:name=".profileEdit"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="About Me"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".changeEmail"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="changeEmail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".changePassword"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="change Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangeUserName"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Change User Name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".writeMsg"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="send a message"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".readMsg"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="FOR YOUR EYES ONLY"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myMsg"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Comming soon"
+            android:screenOrientation="portrait" />
+        <activity android:name=".messageactivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_read_msg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/backdrop"
+    tools:context="com.fujdevelopers.bottled.readMsg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:text="one sec..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageTxt"
+            android:textSize="18sp"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent"
+            android:textStyle="normal|italic"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FromTxt"
+            android:fontFamily="casual"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userTxt"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+</RelativeLayout>
